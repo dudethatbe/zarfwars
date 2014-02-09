@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+	<ribbon>
+		<tabs>
+			<tab id="zarfTab" label="ZarfWars" insertAfterMso="TabHome">
+				<group id="startGroup" label="Main Menu">
+					<button id="startButton" label="Start Game" size="large" onAction="StartGame" imageMso="MeetingsWorkspace" />
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
